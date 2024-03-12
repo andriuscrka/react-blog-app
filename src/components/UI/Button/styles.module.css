@@ -1,0 +1,27 @@
+.button {
+  min-width: 40px;
+  height: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 6px 10px;
+  border: 2px solid #dda0dd;
+
+  background-color: white;
+
+  user-select: none;
+  cursor: pointer;
+
+  transition: 0.1s ease-in-out;
+}
+
+.button:hover {
+  background-color: #dda0dd;
+  color: white;
+}
+
+.button:active {
+  background-color: #dd8bdd;
+}

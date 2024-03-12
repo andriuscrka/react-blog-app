@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 700px;
+  min-height: 400px;
+
+  background-color: rgb(205, 174, 215);
+
+  margin-block: 20px;
+
+  border-radius: 5px;
+}
+
+.items > :last-child {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,15 @@
+.select {
+  height: 30px;
+  min-width: 50px;
+
+  padding: 0px 10px;
+  border: 2px solid #dda0dd;
+
+  background-color: white;
+
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

@@ -1,0 +1,74 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100px;
+  width: 500px;
+
+  background-color: rgb(246, 246, 246);
+ 
+  margin-top: 20px;
+
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+
+  text-align: center;
+
+  margin: 5px 0;
+}
+
+.text {
+  text-align: justify;
+  text-justify: inter-word;
+
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: space-between;
+
+  color: gray;
+  font-style: italic;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.toolbar {
+  position: absolute;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+
+  min-width: 60px;
+  height: 25px;
+  
+  top: 0;
+  right: 0;
+
+  border-radius: 0 4px 0 4px;
+  
+  background-color: #ececec;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+
+  color: rgb(205, 132, 230);
+
+  cursor: pointer;
+}
+
+.icon:active {
+  transform: scale(0.95);
+  color: rgb(196, 124, 213);
+}
